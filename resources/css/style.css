@@ -1,0 +1,73 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+header {
+	border-bottom: solid seashell 1px;
+	height: 69px;
+	background: black;
+	width: 100%;
+}
+
+header img {
+	margin-left: 10px;
+	height: 50px;
+}
+
+nav {
+	display: inline-block;
+	text-align: right;
+}
+
+nav a {
+	color: seashell;
+}
+
+.mission {
+	display: flex-inline;
+	height: 700px;
+	background-image: url('../images/img-mission-background.jpg');
+	background-repeat: no-repeat;
+}
+
+.ourmission {
+}
+
+.teamonth {
+	text-align: center;
+	width: 1000px;
+}
+
+.teaimg img {
+	width: 300px;
+	height: 200px;
+}
+
+.locations {
+	text-align: center;
+	background-image: url('../images/img-locations-background.jpg');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.loc {
+	display: inline-block;
+	background-color: black;
+	width: 300px;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+.contact {
+	text-align: center;
+	height: 200px;
+}
+
+footer {
+	margin-left: 20px;
+}
