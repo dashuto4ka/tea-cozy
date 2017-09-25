@@ -1,73 +1,134 @@
+
 body {
+	margin: 0;
 	font-family: Helvetica;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
+	text-align: center;
 }
 
 header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	position: fixed;
+	z-index: 1;
+	background: black;
 	border-bottom: solid seashell 1px;
 	height: 69px;
-	background: black;
 	width: 100%;
 }
 
 header img {
-	margin-left: 10px;
+	padding-left: 10px;
 	height: 50px;
 }
 
 nav {
-	display: inline-block;
 	text-align: right;
 }
 
 nav a {
 	color: seashell;
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.main {
+	width: 1200px;
+	padding-top: 69px;
+	margin: 0 auto;
+}
+
+#mission {
+	display: flex;
+	justify-content: center;
+	flex-wrap: flex;
+	height: 700px;
+	background-image: url('../images/img-mission-background.jpg');
+	padding-top: 69px;
 }
 
 .mission {
-	display: flex-inline;
-	height: 700px;
-	background-image: url('../images/img-mission-background.jpg');
-	background-repeat: no-repeat;
+	margin: auto;
+	width: 100%;
+	background-color: black;
+
 }
 
-.ourmission {
-}
-
-.teamonth {
-	text-align: center;
+#featured-tea {
 	width: 1000px;
+	height: 700px;
+	padding-top: 69px;
+	margin: auto;
 }
 
-.teaimg img {
+.month-tea {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.month-tea img {
+	display: block;
 	width: 300px;
 	height: 200px;
+	margin: 10px;
+}
+
+.tea {
+	padding: 5px;
+}
+
+.tea span {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#locations {
+	background-image: url('../images/img-locations-background.jpg');
+	height: 500px;
+	padding-top: 69px;
+	margin-top: 50px;
+}
+
+#locations h2 {
+	margin: 0;
+	padding: 5px;
 }
 
 .locations {
-	text-align: center;
-	background-image: url('../images/img-locations-background.jpg');
-	background-repeat: no-repeat;
-	height: 500px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
 }
 
-.loc {
-	display: inline-block;
+.location {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-color: black;
-	width: 300px;
-	text-align: center;
-	margin-top: 15px;
-	margin-right: 40px;
+	opacity: 1;
+	margin: 5px 20px;
+    width: 300px;
 }
 
 .contact {
-	text-align: center;
 	height: 200px;
 }
 
 footer {
-	margin-left: 20px;
+	padding-left: 20px;
+	text-align: left;
 }
+
+h2, h3, h4 {
+}
+
+
+
