@@ -127,8 +127,23 @@ footer {
 	text-align: left;
 }
 
-h2, h3, h4 {
+.go-back {
+	position: fixed;
+	left: 20px;
+	width: 100px;
+	background: grey;
+	text-align: center;
+	padding: 15px 0;
+	opacity: 0.05;
 }
 
+.go-back a {
+	color: white;
+	text-decoration: none;
+}
 
+.go-back:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
 
